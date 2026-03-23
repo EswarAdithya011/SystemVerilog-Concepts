@@ -28,7 +28,7 @@ module tb;
     
     s[2] = {default: 0};
     $display(s[2]);
-    // Size of the structure is the max size of all the variables that are declared inside of that structure. 
+    // Size of the structure is the sum of all the sizes of variables that are declared inside of that structure. 
     // This works with packed structures I think.
 //     $display("Size of Structure: %0d", s[0].size());
   
